@@ -3,9 +3,9 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class AppService {
   getHello(): string {
-    return 'A2 Branch new yeah';
+    return 'This is A2 Branch, 2nd Commit yeah';
   }
   getHelloWorld(): string {
-    return 'This is A2 getHelloWorld, yeah!';
+    return 'This is A2 , 2nd Commit yeah!';
   }
 }
