@@ -14,4 +14,8 @@ export class AppController {
   getHelloWorld(): string {
     return this.appService.getHelloWorld();
   }
+  @Get('getA2toBlockA3Space')
+  getA2toBlockA3Space(): string {
+    return this.appService.getA2toBlockA3Space();
+  }
 }

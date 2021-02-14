@@ -8,4 +8,7 @@ export class AppService {
   getHelloWorld(): string {
     return 'This is A2 , 2nd Commit yeah!';
   }
+  getA2toBlockA3Space(): string {
+    return 'This is A2 , 2nd Commit yeah!';
+  }
 }
