@@ -24,10 +24,10 @@ export class AppService {
   }
 
   A5FromA4(): string {
-    return 'A5fromA4';
+    return 'A5fromA4Balsh';
   }
 
   A8FromA5(): string {
-    return 'A8FromA5';
+    return 'A8FromA5blah';
   }
 }
