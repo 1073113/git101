@@ -24,4 +24,9 @@ export class AppController {
   getA2toBlockA3Space(): string {
     return this.appService.getA2toBlockA3Space();
   }
+
+  @Get('A6fromA5Branch')
+  A6fromA5Branch(): string {
+    return this.appService.A6fromA5Branch();
+  }
 }
