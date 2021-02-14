@@ -14,4 +14,8 @@ export class AppController {
   getHelloWorld(): string {
     return this.appService.getHelloWorld();
   }
+  @Get('fromA3Branch')
+  fromA3(): string {
+    return this.appService.fromA3();
+  }
 }

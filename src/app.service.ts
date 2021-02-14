@@ -8,4 +8,7 @@ export class AppService {
   getHelloWorld(): string {
     return 'This is A1 getHelloWorld!';
   }
+  fromA3(): string {
+    return 'This is from A3 branch commit!';
+  }
 }
