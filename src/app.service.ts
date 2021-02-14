@@ -15,6 +15,10 @@ export class AppService {
     return 'This is from A3 branch commit! and 2n Commit from A3';
   }
 
+  A8FromA5Again(): string {
+    return 'A8FromA5Again';
+  }
+
   A5FromA4(): string {
     return 'A5fromA4';
   }

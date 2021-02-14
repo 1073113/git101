@@ -34,4 +34,9 @@ export class AppController {
   A8FromA5(): string {
     return this.appService.A8FromA5();
   }
+
+  @Get('A8FromA5Again')
+  A8FromA5Again(): string {
+    return this.appService.A8FromA5Again();
+  }
 }
