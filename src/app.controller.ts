@@ -14,8 +14,14 @@ export class AppController {
   getHelloWorld(): string {
     return this.appService.getHelloWorld();
   }
+
   @Get('fromA3Branch')
   fromA3(): string {
     return this.appService.fromA3();
+  }
+
+  @Get('getA2toBlockA3Space')
+  getA2toBlockA3Space(): string {
+    return this.appService.getA2toBlockA3Space();
   }
 }
