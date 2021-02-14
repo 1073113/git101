@@ -18,4 +18,8 @@ export class AppService {
   A6fromA5Branch(): string {
     return 'This is from A6fromA5Branch!';
   }
+
+  A5FromA4(): string {
+    return 'A5fromA4';
+  }
 }

@@ -29,4 +29,9 @@ export class AppController {
   A6fromA5Branch(): string {
     return this.appService.A6fromA5Branch();
   }
+
+  @Get('A5FromA4')
+  A5FromA4(): string {
+    return this.appService.A5FromA4();
+  }
 }
