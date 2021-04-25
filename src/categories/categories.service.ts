@@ -12,12 +12,16 @@ export class CategoriesService {
     private readonly usersService: UsersService,
   ) {}
 
-  create(createCategoryDto: CreateCategoryDto) {
-    return 'This action adds a new category';
-  }
-
   findAll() {
     return `This action returns all categories`;
+  }
+
+  create(createCategoryDto: CreateCategoryDto) {
+    return 'This action adds a new category, I know it will change';
+  }
+
+  undo(createCategoryDto: CreateCategoryDto) {
+    return 'This action adds undo, I know it will change';
   }
 
   findOne(id: number) {
